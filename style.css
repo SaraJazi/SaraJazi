@@ -1,0 +1,28 @@
+:root{
+    --bg: black;
+    --namevariable:30;
+}
+.redcolor
+{
+    color: red;
+    background: transparent;
+    
+}
+p{ 
+    display : inline;
+    width : 33%;
+ }
+p.redcolor::selection{background-color: var(--bg); }
+h1{ color: skyblue}
+#idp   
+{ 
+    color: salmon;
+    margin-top: 15px ;
+    /* padding: 15px; */
+    background-color: tomato;
+    border: 1px dotted black;
+}
+ul,ol {color: brown;}
+p{color: beige;}
+p:hover {color: green;}
+#idtitre{display: none;}
