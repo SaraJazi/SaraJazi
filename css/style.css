@@ -1,0 +1,32 @@
+.button {
+    inline-size: 3cm;
+    block-size: 0.7cm;
+    margin-inline-end: 0.5cm;
+    border-color: gray;
+}
+
+.listButton {
+    margin-left: 40%;
+}
+
+#btnBoldText {
+    font-weight: bold;
+}
+
+#btnItalicText {
+    font-style: italic;
+}
+
+#btnUnderlinedText {
+    text-decoration: underline;
+}
+
+.downdrop {
+    background-color: rgb(226, 226, 226);
+}
+
+#idText {
+    align-content: center;
+    font-size: 14px;
+    font-family: Georgia;
+}
