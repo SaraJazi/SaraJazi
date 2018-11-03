@@ -10,19 +10,19 @@
 
 <body>
     <div class="listButton">
-        <button class="button" id="btnBoldText" onclick="MakeTextBold()">B</button>
-        <button class="button" id="btnItalicText" onclick="MakeTextItalic()">I</button>
-        <button class="button" id="btnUnderlinedText" onclick="MakeTextUnderlined()">U</button>
-        <select class="button downdrop" onchange="ChangeFontFamily(this.value);">
+        <button class="button" id="btnBoldText" >B</button>
+        <button class="button" id="btnItalicText">I</button>
+        <button class="button" id="btnUnderlinedText">U</button>
+        <select id="familleText" class="button downdrop">
                 <option value="Georgia" selected ="selected">Georgia</option>
                 <option value="Arial" >Arial</option>
                 <option value="Times New Roman">Times New Roman</option>
         </select>
-        <select class="button downdrop" onchange="ChangeFontSize(this.value);">
+        <select id="tailleText" class="button downdrop">
                 <option value="8px">8</option>
                 <option value="10px">10</option>
                 <option value="12px" >12</option>
-                <option value="14px" selected ="true">14</option>
+                <option value="14px" selected ="selected">14</option>
                 <option value="18px">18</option>
                 <option value="24px">24</option>
                 <option value="36px">36</option>
@@ -35,6 +35,7 @@
     </div>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

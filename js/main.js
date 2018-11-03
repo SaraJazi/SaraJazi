@@ -1,19 +1,15 @@
-function MakeTextBold() {
-    document.getElementById("idText").style.fontWeight = 'bold';
-}
-
-function MakeTextItalic() {
-    document.getElementById("idText").style.fontStyle = 'italic';
-}
-
-function MakeTextUnderlined() {
-    document.getElementById("idText").style.textDecoration = 'underline';
-}
-
-function ChangeFontFamily(fontName) {
-    document.getElementById("idText").style.fontFamily = fontName;
-}
-
-function ChangeFontSize(fontSiz) {
-    document.getElementById("idText").style.fontSize = fontSiz;
-}
+$("#btnBoldText").click(function(){
+    $("#idText").css("fontWeight","bold");
+});
+ $("#btnItalicText").click(function(){
+     $("#idText").css("fontStyle","italic");
+    });
+ $("#btnUnderlinedText").click(function(){
+     $("#idText").css("textDecoration","underline");
+    });
+ $("#familleText").change(function(){
+     $("#idText").css("fontFamily",$("#familleText :selected").val());
+});
+ $("#tailleText").change(function(){
+     $("#idText").css("fontSize",$("#tailleText :selected").val());
+    });
