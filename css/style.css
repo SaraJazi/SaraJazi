@@ -1,32 +1,110 @@
-.button {
-    inline-size: 3cm;
-    block-size: 0.7cm;
-    margin-inline-end: 0.5cm;
-    border-color: gray;
+body {
+    margin: 0px;
 }
 
-.listButton {
-    margin-left: 25%;
+.cover {
+    width: 100%;
+    height: 300px;
+    background-image: url("../res/cover.jpg");
+    background-size: cover;
+    background-position: top;
+    margin-top: 0px;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
-#btnBoldText {
-    font-weight: bold;
+.coverPhoto {
+    text-align: center;
+    margin-top: 200px;
+    ;
 }
 
-#btnItalicText {
-    font-style: italic;
+.photo {
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgb(114, 112, 112);
 }
 
-#btnUnderlinedText {
+.container {
+    margin-top: 150px;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(14, 171, 233);
+}
+
+i {
+    padding: 3px;
+}
+
+i:hover {
+    color: gray;
+}
+
+.symbolicon {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nameicon {
+    color: rgb(14, 171, 233);
+    font-size: 20px;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 30px;
+    opacity: 0;
+}
+
+.section:hover .symbolicon {
+    color: rgb(14, 171, 233);
+    transition: .40s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.section:hover .nameicon {
+    opacity: 1;
+}
+
+.title {
+    text-align: center;
+}
+
+h1:hover {
     text-decoration: underline;
+    color: black;
 }
 
-.downdrop {
-    background-color: rgb(226, 226, 226);
+.text {
+    font-size: 20px;
 }
 
-#idText {
-    align-content: center;
-    font-size: 14px;
-    font-family: Georgia;
+h2 {
+    color: rgb(14, 171, 233);
+    font-size: 35px;
+}
+
+.interest {
+    margin-bottom: 50px;
+}
+
+.margin {
+    margin-top: 50px;
+}
+
+.image {
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 2px 2px 3px rgb(114, 112, 112);
+    border-radius: 3.5px;
+    margin-top: 20px;
+}
+
+.image:hover {
+    box-shadow: none;
+}
+.project{
+    margin-bottom: 300px;
 }

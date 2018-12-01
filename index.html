@@ -1,41 +1,116 @@
 <!DOCTYPE html>
-<!-- //html5 -->
+
 <html>
 
 <head>
-    <title>pageWebName</title>
-    <link rel="icon" href="res/logo.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
+    <title>CV mahmoud</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="listButton">
-        <button class="button" id="btnBoldText" >B</button>
-        <button class="button" id="btnItalicText">I</button>
-        <button class="button" id="btnUnderlinedText">U</button>
-        <select id="familleText" class="button downdrop">
-                <option value="Georgia" selected ="selected">Georgia</option>
-                <option value="Arial" >Arial</option>
-                <option value="Times New Roman">Times New Roman</option>
-        </select>
-        <select id="tailleText" class="button downdrop">
-                <option value="8px">8</option>
-                <option value="10px">10</option>
-                <option value="12px" >12</option>
-                <option value="14px" selected ="selected">14</option>
-                <option value="18px">18</option>
-                <option value="24px">24</option>
-                <option value="36px">36</option>
-        </select>
+
+    <div class="cover">
+        <div class="coverPhoto">
+            <img class="photo" src="res/photo.png">
+        </div>
     </div>
-    <div>
-        <p id="idText"> We're going to make a program that looks like Microsoft Word. There will be one paragrah and a bunch of buttons. Each button will have an onclick attribute that will link to a different javascript function. These buttons will have unique names
-            and should do the following : -one button to make the paragraph bold -one button to make the paragraph italic -one button to make the paragraph underlined -one dropdown list that will have a bunch of fonts, and when you click on one the paragraph’s
-            font will change to it. - one dropdown list that will have a bunch of numbers (choose whatever you want) and when you click on it the paragraph’s font size changes to that. All these buttons will be in one line and above the paragraph.</p>
+    <div class="container">
+        <div class="icon">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+            <i class="fab fa-facebook-f fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-behance fa-2x"></i>
+        </div>
+        <br>
+        <div class="title">
+            <h1>Mahmoud Ghandour</h1>
+            <p class="text">graphic designer, web developer</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h2>Academic Studies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore! Labore quos veniam
+                    officiis optio ad atque deleniti facere voluptas laborum quod facilis adipisci, dicta ullam
+                    asperiores, harum sint ducimus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis dolores voluptate cupiditate
+                    laudantium mollitia numquam dolorum architecto optio minus repudiandae molestias non cumque
+                    necessitatibus voluptatum, doloribus consectetur
+                    eligendi quasi?</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h2>Professional Experience</h2>
+                <ul>
+                    <li>Quo ducimus accusantium molestiae cum saepe sed quasi tempore.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Debitis, aperiam odit laborum repellendus in ipsa omnis vel!</li>
+                    <li>Molestiae cum saepe sed quasi tempore et modi quam.</li>
+                    <li>Ducimus accusantium molestiae cum saepe sed quasi tempore et modi quam.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="interest">
+            <h2>Interests</h2>
+            <div class="row margin">
+                <div class="col-md-2 col-sm-4 col-6 section">
+                    <i class="fas fa-bath fa-4x symbolicon"></i>
+                    <p class="nameicon">Showers</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 section">
+                    <i class="fab fa-grav fa-4x symbolicon"></i>
+                    <p class="nameicon">Zero Gravity</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 section">
+                    <i class="fas fa-anchor fa-4x symbolicon"></i>
+                    <p class="nameicon">Anchors</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 section">
+                    <i class="fas fa-motorcycle fa-4x symbolicon"></i>
+                    <p class="nameicon">Motorcycles</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 section">
+                    <i class="fas fa-wrench fa-4x symbolicon"></i>
+                    <p class="nameicon">DIY Stuff</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 section">
+                    <i class="fas fa-female fa-4x symbolicon"></i>
+                    <p class="nameicon">Smart Ladies ;)</p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <img class="image" src="res/div.png">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <img class="image" src="res/div.png">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <img class="image" src="res/div.png">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <img class="image" src="res/div.png">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <img class="image" src="res/div.png">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <img class="image" src="res/div.png">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 
 </html>

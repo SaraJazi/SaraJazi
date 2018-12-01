@@ -1,15 +1,35 @@
-$("#btnBoldText").click(function(){
-    $("#idText").css("fontWeight","bold");
-});
- $("#btnItalicText").click(function(){
-     $("#idText").css("fontStyle","italic");
-    });
- $("#btnUnderlinedText").click(function(){
-     $("#idText").css("textDecoration","underline");
-    });
- $("#familleText").change(function(){
-     $("#idText").css("fontFamily",$("#familleText :selected").val());
-});
- $("#tailleText").change(function(){
-     $("#idText").css("fontSize",$("#tailleText :selected").val());
-    });
+// $(document).ready(function(){
+//     console.log('jquery is working')
+//     $("#BtnMenu").click(function(e){
+//         e.preventDefault()
+//         $("#Menu").animate({
+//             marginLeft:'0'
+//         }).html(`<ol>
+//         <li></li>
+//         <li></li>
+//         <li></li>
+//         <li></li>
+//         <li></li>
+//         <li></li>
+//         <li></li>
+//         <li></li>
+//     </ol>`)
+//     })
+// })
+$(document).ready(function(){
+        console.log('jquery is working')
+        $("#BtnMenu").click(function(e){
+            e.preventDefault()
+            $("#Menu").fadeIn(2000)
+            .html(`<ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>`)
+    })
+})
